@@ -111,7 +111,7 @@ To subscribe to any changes in your workspace, you can use Fabric events. In thi
 2. Under **Workspace**, select the workspace in which you created your resources.
 3. Select **Next**.
 
-    ![Screenshot of workspace event configuration settings.](media/tutorial/event-types.png)
+    ![Screenshot of workspace event configuration settings.](media/event-types.png)
 
 4. Select **Save**.
 
@@ -124,7 +124,7 @@ To subscribe to any changes in your workspace, you can use Fabric events. In thi
     It may take a few moments for the item to be created.
 5. Once the item is created, select **Open**.
 
-A new tab opens in your browser with the Activator item you have just created. You can use this view to see the history of alerts, and to configure the alert further. 
+A new tab opens in your browser with the Activator item you have just created. You can use this view to see the history of alerts, and to configure the alert further.
 
 > [!NOTE]
 > If you are using a demo tenant and do not have access to the connected email, you may want to add a different email recipient to the alert. Do this by adding a new email address in the **To** field, and then selecting **Save and update**.
@@ -143,7 +143,7 @@ In this section, you can (optionally) customize the email message that is receiv
 
 4. Select **Apply**.
 
-    ![Screenshot of customizing Activator Alert.](media/tutorial/alert-changes.png)
+    ![Screenshot of customizing Activator Alert.](media/alert-changes.png)
 
 5. Select **Save and update**.
 

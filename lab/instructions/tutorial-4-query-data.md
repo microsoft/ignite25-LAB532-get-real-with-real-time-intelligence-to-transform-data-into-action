@@ -94,4 +94,4 @@ Ask follow-up questions or change the scope of your query. Use this feature to l
 
 ## Next step
 
-> Select **Next >** to create a Real-Time dashboard
+> Select **Next >** to create a Real-Time dashboard.
