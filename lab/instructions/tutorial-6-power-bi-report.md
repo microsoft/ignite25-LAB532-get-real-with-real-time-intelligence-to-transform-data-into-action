@@ -1,4 +1,4 @@
-# Real-Time Intelligence tutorial part 5: Create a Power BI report
+# Real-Time Intelligence tutorial part 6: Create a Power BI report
 
 A Power BI report is a multi-perspective view into a semantic model, with visuals that represent findings and insights from that semantic model. In this section, you use a KQL query output to create a new Power BI report.
 
