@@ -1,4 +1,4 @@
-# Real-Time Intelligence tutorial part 7: create anomaly detection on your data
+# Real-Time Intelligence tutorial part 7: Create Anomaly detection on your data
 
 Anomaly detection is a feature of Real-Time Intelligence that allows you to identify unusual patterns in your data. In this part of the tutorial, you learn how to create an 'Anomaly detector' item on your workspace to detect anomalies in the number of empty docks at a station.
 
