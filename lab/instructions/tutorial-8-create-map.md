@@ -1,4 +1,4 @@
-# Real-Time Intelligence tutorial part 8: create map
+# Real-Time Intelligence tutorial part 8: Create Map
 
 In this part of the tutorial, you learn how to create a map using geospatial data.
 
