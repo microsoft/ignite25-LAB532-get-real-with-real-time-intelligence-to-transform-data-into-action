@@ -66,30 +66,6 @@ Since you've selected **Open dashboard after creation**, the new Real-Time dashb
 9. Select **Pin to dashboard** > **In this dashboard**.
 10. Enter +++**Max no. of bikes at each street**+++ as the **Tile name**.
 
-## Add a map tile
-
-1. Select **New tile**.
-2. In the query editor, enter and run the following query:
-
-    ```kusto
-    RawData 
-    | where Timestamp > ago(1h)
-    ```
-
-3. Above the results pane, select **+ Add visual**.
-4. In the **Visual formatting** pane, enter the following information:
-
-    | Field | Value |
-    | --- | --- |
-    | Tile name | +++*Bike locations Map*+++ |
-    | **Visual type** | *Map* |
-    | **Define location by** | *Latitude and longitude* |
-    | **Latitude column** | *Latitude* |
-    | **Longitude column** | *Longitude* |
-    | **Label column** | *BikepointID* |
-
-5. Select **Apply changes**.
-    You can resize the tiles and zoom in on the map as desired.
 
     ![Screenshot of final dashboard with three tiles.](media/final-dashboard.png)
 
