@@ -66,11 +66,10 @@ Since you've selected **Open dashboard after creation**, the new Real-Time dashb
 9. Select **Pin to dashboard** > **In this dashboard**.
 10. Enter +++**Max no. of bikes at each street**+++ as the **Tile name**.
 
-
     ![Screenshot of final dashboard with three tiles.](media/final-dashboard.png)
 
-6. Save the dashboard by selecting the **Save** icon on the top left corner of the dashboard.
+11. Save the dashboard by selecting the **Save** icon on the top left corner of the dashboard.
 
 ## Next step
 
-> Select **Next >** to create a Power BI report from your KQL queryset
+> Select **Next >** to set an alert on your event stream
