@@ -1,0 +1,15 @@
+{
+    "value": [
+        {
+            "id": "/subscriptions/5d8601c3-042c-4175-a3eb-78d72ae468d3/resourceGroups/ResourceGroup1/providers/Microsoft.Fabric/capacities/fabricperuser55765948",
+            "name": "fabricperuser55765948",
+            "type": "Microsoft.Fabric/capacities",
+            "sku": {
+                "name": "F8",
+                "tier": "Fabric"
+            },
+            "location": "eastus2",
+            "tags": {}
+        }
+    ]
+}
