@@ -1,17 +1,17 @@
-# Real-Time Intelligence tutorial part 7: Set an alert on your event stream
+# Real-Time Intelligence tutorial part 6: Set an alert on your event stream
 
 The event stream insights are now available for you to create alerts. In this part of the tutorial, you learn how to set an alert on your event stream to receive a notification in Teams when the number of bikes falls below a certain threshold.
 
 ## Set an alert on the event stream
 
 1. From the left navigation bar, select **Real-Time** to open the *Real-Time hub*.
-2. Under **All data streams** select the event stream you created in the previous tutorial named *TutorialEventstream*.
+2. Under **Recent streaming data** select the event stream you created in the previous tutorial named *TutorialEventstream*.
     The event stream details page opens.
 
     ![Screenshot of event streams details page and set alert selected.](media/set-alert.png)
 
 3. Select **Set alert**
-4. A new pane opens. Fill in the fields as follows:
+4. A new pane opens. Enter **`TutorialRule`** in the **Rule name** field. Fill in the fields as follows:
 
     | Field | Value |
     | --- | --- |

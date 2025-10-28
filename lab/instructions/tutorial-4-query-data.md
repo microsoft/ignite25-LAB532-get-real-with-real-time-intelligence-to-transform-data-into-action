@@ -78,9 +78,9 @@ This query returns a KQL equivalent of the T-SQL query you enter. The KQL query 
 
 If you're new to writing KQL, you can ask a question in natural language and Copilot generates the KQL query for you.
 
-1. In the KQL queryset, select the **Copilot** icon from the menu bar.
+1. In the Menu bar, select **Queryset** then select **Copilot**.
 
-2. Enter a question in natural language. For example, "Which station has the most bikes right now. Use the materialized view for the most updated data." It can help to include the name of the materialized view in your question.
+2. Enter a question in natural language. For example, _`Which station has the most bikes right now. Use the materialized view for the most updated data`_. It can help to include the name of the materialized view in your question.
 
     The Copilot suggests a query based on your question.
 

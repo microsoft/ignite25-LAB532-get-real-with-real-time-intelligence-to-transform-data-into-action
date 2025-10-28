@@ -5,7 +5,7 @@ Anomaly detection is a feature of Real-Time Intelligence that allows you to iden
 ## Detect anomalies on an Eventhouse table
 
 1. From the left navigation bar, select **Real-Time** to open the *Real-Time hub*.
-2. Under **All data streams** select the eventhouse table **TransformedData** you created in the previous tutorial. The table details page opens. Select **Detect anomalies** from the top menu.
+2. Under **Recent streaming data** select the eventhouse table **TransformedData** you created in the previous tutorial. The table details page opens. Select **Detect anomalies** from the top menu.
 
     ![Screenshot of eventhouse table details page and detect anomalies selected.](media/detect-anomalies.png)
 
