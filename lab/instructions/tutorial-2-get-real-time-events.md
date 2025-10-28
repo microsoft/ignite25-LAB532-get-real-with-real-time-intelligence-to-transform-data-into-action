@@ -1,6 +1,6 @@
 # Real-Time Intelligence tutorial part 2: Get data in the Real-Time hub
 
-In this part of the tutorial, you browse the Real-Time hub, create an eventstream, transform events, and create a destination to send the transformed events to a KQL database. You then subscribe to Fabric Events, so that you will receive an alert each time a new item is created in your workspace.
+In this part of the tutorial, you browse the Real-Time hub, create an eventstream, transform events, and create a destination to send the transformed events to a KQL database.
 
 ## Create an eventstream
 
@@ -92,60 +92,6 @@ In this part of the tutorial, you browse the Real-Time hub, create an eventstrea
    ![Screenshot showing the source deactivated in Real-Time Intelligence.](media/source-deactivated.png)
 
 The event stream is now set up to transform events and send them to a KQL database. The insights are not yet available to create alerts, you will do this in a later step so you can monitor the number of bikes in real-time. For now, you can move on to the next step to query the data in the KQL database.
-
-## Subscribe to Fabric Events
-
-To subscribe to any changes in your workspace, you can use Fabric events. In this section, you set alerts on Fabric Events so that you receive an email each time a new item is created, deleted, or updated in your workspace. In different scenarios, the Activator could also be used to trigger a Fabric item, such as a pipeline or a notebook.
-
-1. Browse to the Real-Time hub on the left navigation bar.
-2. In the left pane, select **Subscribe to** > **Fabric Events**.
-3. Hover over **Workspace item events** and select the alert icon.
-
-    ![Screenshot of workspace item events in the Fabric events section of the Real-Time hub.](media/fabric-events.png)
-
-### Configure the events for the alert
-
-1. In the **Set alert** pane that opens, under **Monitor** > **Source**, select **Select events**.
-    The default selection is six types of events that include success and failure of item creation, deletion, and update.
-
-2. Under **Workspace**, select the workspace in which you created your resources.
-3. Select **Next**.
-
-    ![Screenshot of workspace event configuration settings.](media/event-types.png)
-
-4. Select **Save**.
-
-### Configure the alert
-
-1. Under **Save location** > **Workspace**, select the workspace in which you created your resources.
-2. Select **Item** > **Create a new item**.
-3. **Enter a name** for the item, such as **WorkspaceItemChange**.
-4. Select **Create**.
-    It may take a few moments for the item to be created.
-5. Once the item is created, select **Open**.
-
-A new tab opens in your browser with the Activator item you have just created. You can use this view to see the history of alerts, and to configure the alert further.
-
-> [!NOTE]
-> If you are using a demo tenant and do not have access to the connected email, you may want to add a different email recipient to the alert. Do this by adding a new email address in the **To** field, and then selecting **Save and update**.
-
-### Customize the message
-
-In this section, you can (optionally) customize the email message that is received to include information about the condition which set off the alert.
-
-1. In the **Definition** pane, under **Action** select **Edit action**.
-2. In the **Edit the action** window, click on the field next to **Context**.
-3. Select the checkboxes next to the following fields:
-
-    * itemName
-    * itemKind
-    * __type
-
-4. Select **Apply**.
-
-    ![Screenshot of customizing Activator Alert.](media/alert-changes.png)
-
-5. Select **Save and update**.
 
 ## Next step
 

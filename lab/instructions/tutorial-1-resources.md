@@ -7,13 +7,20 @@ In this part of the tutorial, you set up the environment. Specifically, you crea
 1. In the virtual machine, open a web browser and browse to +++https://app.fabric.microsoft.com+++.
 2. When prompted, sign in using the following credentials:
     * **Email**: +++@lab.CloudPortalCredential(User1).Username+++
-    * **Password**: +++@lab.CloudPortalCredential(User1).Password+++
+    * **Password**: +++@lab.CloudPortalCredential(User1).AccessToken+++
 
-3. Select **Workspaces** from the left navigation pane. Then select **+ New workspace**.
+3. If prompted to stay signed in, select **Yes**.
+
+    > [!NOTE]
+    > **Note**: Close any pop-up dialogs that appear on the screen.
+
+4. If prompted, select **Continue** and on the **Job Title** box enter `Data Expert`. On the **Business Phone Number** box enter `1230000849` then select **Get Started**.
+
+5. Select **Workspaces** from the left navigation pane. Then select **+ New workspace**.
 
     ![Screenshot showing how to create a new workspace in Real-Time Intelligence.](media/create-new-workspace.png)
 
-4. Enter a name for the workspace, such as +++*TutorialWorkspace_@lab.LabInstance.Id*+++. Expand the **Advanced** option and make sure **Fabric Capacity** is selected then select **Apply** when done.
+6. Enter a name for the workspace, such as +++*TutorialWorkspace_@lab.LabInstance.Id*+++. Expand the **Advanced** option and make sure **Fabric Capacity** is selected then select **Apply** when done.
 
     ![Screenshot showing how to create a new workspace in Real-Time Intelligence.](media/create-workspace-side-pane.png)
 
