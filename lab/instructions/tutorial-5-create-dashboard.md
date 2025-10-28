@@ -14,7 +14,7 @@ In this part of the tutorial, you learn how to create a Real-Time Dashboard in R
 
     ![Screenshot of query showing column chart of bikes by bike point ID.](media/bikes-by-bikepoint.png)
 
-2. Select **Pin to dashboard**.
+2. Select **Save to dashboard**.
 3. Enter the following information:
 
     ![Screenshot of pinning query to dashboard in Real-Time Intelligence.](media/pin-dashboard.png)
@@ -45,7 +45,7 @@ Since you've selected **Open dashboard after creation**, the new Real-Time dashb
     ```
 
 4. From the menu ribbon Select **Apply changes**.
-5. This creates a new tile, rename the tile by selecting the **More menu [...]** on the top right corner of the tile > **Rename tile**.
+5. This creates a new tile, rename the tile by selecting the **More menu [...]** on the top right corner of the tile, select **Tile options** and select **Rename**.
 6. Rename the tile to +++*Chelsea bikes*+++.
 
 ## Explore the data visually by adding an aggregation
@@ -62,8 +62,8 @@ Since you've selected **Open dashboard after creation**, the new Real-Time dashb
 
     Notice that the query elements are updated to include the **max(No_Bikes) by Street** aggregation. The resulting table changed to show the total count of bike locations by street.
 
-8. Change the **Visual type** to **Bar chart**.
-9. Select **Pin to dashboard** > **In this dashboard**.
+8. Change the *Visual type* by selecting **Bar chart** from the **Visualization** dropdown on the top left in the menu ribbon.
+9. Select **Save to dashboard** > **In this dashboard**.
 10. Enter +++**Max no. of bikes at each street**+++ as the **Tile name**.
 
     ![Screenshot of final dashboard with three tiles.](media/final-dashboard.png)
