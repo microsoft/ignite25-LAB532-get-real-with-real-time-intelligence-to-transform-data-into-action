@@ -61,15 +61,23 @@ Select **Next >** to go to the first exercise.
 
 ===
 
-!INSTRUCTIONS [Real-Time Intelligence tutorial part 6: Create a Power BI report](https://raw.githubusercontent.com/microsoft/ignite25-LAB532-get-real-with-real-time-intelligence-to-transform-data-into-action/refs/heads/main/lab/instructions/tutorial-6-power-bi-report.md)
+!INSTRUCTIONS [Real-Time Intelligence tutorial part 6: Set an alert on your eventstream](https://raw.githubusercontent.com/microsoft/ignite25-LAB532-get-real-with-real-time-intelligence-to-transform-data-into-action/refs/heads/main/lab/instructions/tutorial-6-set-alert.md)
 
 ===
 
-!INSTRUCTIONS [Real-Time Intelligence tutorial part 7: Set an alert on your eventstream](https://raw.githubusercontent.com/microsoft/ignite25-LAB532-get-real-with-real-time-intelligence-to-transform-data-into-action/refs/heads/main/lab/instructions/tutorial-7-set-alert.md)
+!INSTRUCTIONS [Real-Time Intelligence tutorial part 7: Create Anomaly detection on your data](https://raw.githubusercontent.com/microsoft/ignite25-LAB532-get-real-with-real-time-intelligence-to-transform-data-into-action/refs/heads/main/lab/instructions/tutorial-7-create-anomaly-detection.md)
 
 ===
 
-!INSTRUCTIONS [Real-Time Intelligence tutorial part 8: Clean up resources](https://raw.githubusercontent.com/microsoft/ignite25-LAB532-get-real-with-real-time-intelligence-to-transform-data-into-action/refs/heads/main/lab/instructions/tutorial-8-clean-up-resources.md)
+!INSTRUCTIONS [Real-Time Intelligence tutorial part 8: Create Map](https://raw.githubusercontent.com/microsoft/ignite25-LAB532-get-real-with-real-time-intelligence-to-transform-data-into-action/refs/heads/main/lab/instructions/tutorial-8-create-map.md)
+
+===
+
+!INSTRUCTIONS [Real-Time Intelligence tutorial part 9: Use Data agent on your data](https://raw.githubusercontent.com/microsoft/ignite25-LAB532-get-real-with-real-time-intelligence-to-transform-data-into-action/refs/heads/main/lab/instructions/tutorial-9-use-data-agent.md)
+
+===
+
+!INSTRUCTIONS [Real-Time Intelligence tutorial part 10: Clean up resources](https://raw.githubusercontent.com/microsoft/ignite25-LAB532-get-real-with-real-time-intelligence-to-transform-data-into-action/refs/heads/main/lab/instructions/tutorial-10-clean-up-resources.md)
 
 ## Discussions
 
