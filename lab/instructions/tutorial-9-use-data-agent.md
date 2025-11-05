@@ -26,7 +26,7 @@ In this part of the tutorial, you learn how to create a Fabric data agent and us
     - Always provide latest information based on Timestamp column.
     ```
 
-![Screenshot of agent instructons](media/add-eventhouse-data-agent.png)
+![Screenshot of agent instructons](media/agent-instructions.png)
 
 7. Close the Agent instruction tab
 8. TutorialDataAgent is now ready to use.
