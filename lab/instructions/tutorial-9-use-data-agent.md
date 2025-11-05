@@ -1,4 +1,4 @@
-# Real-Time Intelligence tutorial part 8: Use Data agent on your data
+# Real-Time Intelligence tutorial part 9: Use Data agent on your data
 
 In this part of the tutorial, you learn how to create a Fabric data agent and use it to have a natural language conversation with your eventhouse data.
 
