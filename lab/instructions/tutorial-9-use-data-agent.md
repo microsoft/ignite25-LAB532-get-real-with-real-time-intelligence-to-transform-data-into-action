@@ -25,6 +25,9 @@ In this part of the tutorial, you learn how to create a Fabric data agent and us
     - Number of bikes is in the No_Bikes column and number of empty docks is in the No_Empty_Docks column.
     - Always provide latest information based on Timestamp column.
     ```
+
+![Screenshot of agent instructons](media/add-eventhouse-data-agent.png)
+
 7. Close the Agent instruction tab
 8. TutorialDataAgent is now ready to use.
 9. Ask the following question to the data agent:
