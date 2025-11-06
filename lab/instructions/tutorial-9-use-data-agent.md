@@ -6,16 +6,16 @@ In this part of the tutorial, you learn how to create a Fabric data agent and us
 
 1. Browse to the workspace and in upper left corner select the **+ New item** button. Then search for and select **Data agent**.
 
-![Screenshot of data agent creation](media/create-data-agent.png)
+    ![Screenshot of data agent creation](media/create-data-agent.png)
 
-2. Enter **TutorialDataAgent** as Name
+2. Enter **`TutorialDataAgent`** as Name
 3. In the Explorer pane on the left, select **+ Add Data**, select **Data source**.
 
-![Screenshot of data agent source selection](media/data-agent-source.png)
+    ![Screenshot of data agent source selection](media/data-agent-source.png)
 
 4. OneLake catalog opens. Select **Tutorial** eventhouse you created in the previous exercises. Then select **Add**.
 
-![Screenshot of eventhouse select as data agent source](media/add-eventhouse-data-agent.png)
+    ![Screenshot of eventhouse select as data agent source](media/add-eventhouse-data-agent.png)
 
 5. Under Tuorial eventhouse, select **TransformedData** table.
 6. Select **Agent instructions** tab, and enter the following instructions:
@@ -26,16 +26,16 @@ In this part of the tutorial, you learn how to create a Fabric data agent and us
     - Always provide latest information based on Timestamp column.
     ```
 
-![Screenshot of agent instructons](media/agent-instructions.png)
+    ![Screenshot of agent instructons](media/agent-instructions.png)
 
 7. Close the Agent instruction tab
 8. TutorialDataAgent is now ready to use.
 9. Ask the following question to the data agent:
 
-    - "What is the current bike availability across London bike stations?"
-    - "Which bike stations have the highest number of empty docks right now?"
+    - `What is the current bike availability across London bike stations?`
+    - `Which bike stations have the highest number of empty docks right now?`
 
-![Screenshot of chat with agent](media/agent-chat.png)
+    ![Screenshot of chat with agent](media/agent-chat.png)
 
 10. Feel free to experiment by providing more instructions to the agent or by asking other questions.
 
