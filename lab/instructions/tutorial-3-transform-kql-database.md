@@ -9,9 +9,12 @@ In this step, we will transfer the raw data from the table into a _Bronze_ folde
 1. On the left side panel select the workspace you created in a previous step, and choose the _Tutorial_ KQL Database.
 ![Screenshot showing the workspace elements including the Tutorial KQL Database.](media/workspace-kql-database.png)
 
-2. In the database view select the **Tutorial_queryset** and click the **+** button to create a new KQL script. The Real-Time Experience in Fabric uses the _Kusto Query Language (KQL)_ to query and manage your data.  
-The most common KQL query is a tabular expression with operators that take a tabular input and return a tabular output. Operators are sequenced by a | (pipe). Data flows, or is piped, from one operator to the next, being filtered or manipulated at each step. Learn more KQL in the [Kusto Query Language (KQL) overview](https://learn.microsoft.com/en-us/kusto/query/) docs.
-![Screenshot showing the KQL database view focusing on the Tutorial queryset.](media/kql-queryset.png)
+2. In the database view select the **Tutorial_queryset** and click the **+** button to create a new KQL script. The Real-Time Experience in Fabric uses the _Kusto Query Language (KQL)_ to query and manage your data.
+
+    >[!TIP]
+    > The most common KQL query is a tabular expression with operators that take a tabular input and return a tabular output. Operators are sequenced by a | (pipe). Data flows, or is piped, from one operator to the next, being filtered or manipulated at each step. Learn more KQL in the [Kusto Query Language (KQL) overview](https://learn.microsoft.com/en-us/kusto/query/) docs.
+
+    ![Screenshot showing the KQL database view focusing on the Tutorial queryset.](media/kql-queryset.png)
 
 3. Copy/paste the following code to alter the existing _RawData_ table to be into the _Bronze_ folder.
 
@@ -55,7 +58,7 @@ In this step, you will create a target table that will be used to store the tran
 
 In this step, you will create a stored function that holds the transformation logic to be used in the update policy. The function parses the _BikepointID_ column and adds two new calculated columns.
 
-1. Create a new KQL script.
+1. Inside **Tutorial_queryset**, select the **+** sign to create a new KQL script.
 2. From the menu ribbon, select **Database**.
 3. Select **+New** > **Function**.
 4. Edit the function so that it matches the following code, or copy/paste the following code into the query editor. This code creates a new function to parse the _BikepointID_ column and generate two new calculated columns.
@@ -69,13 +72,13 @@ In this step, you will create a stored function that holds the transformation lo
     }
     ```
 
-    You should now see the function **TransformedRawData** under the **Functions** node in the object tree.
+5. Run the command to create the function. You should now see the function **TransformRawData** under the **Functions** node in the object tree
 
 ## Apply update policy
 
-In this step, you apply an update policy to the _TransformedData_ table using the stored function _TransformRawData()_ that we created in the previous step.
+In this step, you apply an update policy to the target table to transform the data. The update policy uses the stored function _TransformRawData()_ to parse the _BikepointID_ column and adds two new calculated columns.
 
-1. Create a new KQL script.
+1. Inside **Tutorial_queryset**, select the **+** sign to create a new KQL script.
 2. From the menu ribbon, select **Database**.
 3. Select **+ New** > **Table update policy**.
 4. Edit the policy so that it matches the following code, or copy/paste the following code into the query editor:
@@ -94,6 +97,8 @@ In this step, you apply an update policy to the _TransformedData_ table using th
     ]
     ```
     ~~~
+
+5. Run the command to apply the update policy.
 
 ## Verify transformation
 

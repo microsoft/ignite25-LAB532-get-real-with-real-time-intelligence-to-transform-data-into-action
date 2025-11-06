@@ -14,14 +14,13 @@ In this part of the tutorial, you learn how to create a Real-Time Dashboard in R
 
     ![Screenshot of query showing column chart of bikes by bike point ID.](media/bikes-by-bikepoint.png)
 
-2. Select **Save to dashboard**.
+2. Select **Save to dashboard** and **New Real-Time Dashboard**.
 3. Enter the following information:
 
     ![Screenshot of pinning query to dashboard in Real-Time Intelligence.](media/pin-dashboard.png)
 
     | Field | Value |
     | --- | --- |
-    | **Create new tile** | *In a new dashboard* |
     | **Dashboard name** | +++*TutorialDashboard*+++ |
     | **Tile name** | +++*Recent bikes by Timepoint*+++ |
     | **Open dashboard after creation** | *Selected* |
@@ -37,38 +36,31 @@ Since you've selected **Open dashboard after creation**, the new Real-Time dashb
 
     ![Screenshot of Real-Time dashboard in editing mode with new tile selected.](media/new-tile.png)
 
-3. In the query editor enter the following query:
+3. In the query editor, enter and run the following query:
 
     ```kusto
-    RawData 
-    | where Neighbourhood == "Chelsea"
+    RawData
+    | where Timestamp > ago(1h)
     ```
 
-4. From the menu ribbon Select **Apply changes**.
-5. This creates a new tile, rename the tile by selecting the **More menu [...]** on the top right corner of the tile, select **Tile options** and select **Rename**.
-6. Rename the tile to +++*Chelsea bikes*+++.
+4. Above the results pane, select **+ Add visual**.
+5. In the **Visual formatting** pane, enter the following information:
 
-## Explore the data visually by adding an aggregation
+    | Field | Value |
+    | --- | --- |
+    | Tile name | *`Bike locations Map`* |
+    | **Visual type** | *Map* |
+    | **Define location by** | *Latitude and longitude* |
+    | **Latitude column** | *Latitude* |
+    | **Longitude column** | *Longitude* |
+    | **Label column** | *BikepointID* |
 
-1. On the new **Chelsea bikes** tile, select the **Explore** icon. ![Screenshot of the explore icon](media/explore-icon.png)
-2. Select **+ Add** > **Aggregation**.
-3. Select **Operator** > **max** and **Column** > *No_Bikes*.
-4. Under **Display Name**, enter +++*Max_Bikes*+++.
-5. Select **+ Add grouping**.
-6. Select **Group by** > *Street*.
-7. Select **Apply**.
+6. Select **Apply changes**.
+    You can resize the tiles and zoom in on the map as desired.
 
-    ![Screenshot showing the aggregation tool.](media/aggregation-tool.png)
+    ![Screenshot of Real-Time dashboard in editing mode with map tile added.](media/final-dashboard.png)
 
-    Notice that the query elements are updated to include the **max(No_Bikes) by Street** aggregation. The resulting table changed to show the total count of bike locations by street.
-
-8. Change the *Visual type* by selecting **Bar chart** from the **Visualization** dropdown on the top left in the menu ribbon.
-9. Select **Save to dashboard** > **In this dashboard**.
-10. Enter +++**Max no. of bikes at each street**+++ as the **Tile name**.
-
-    ![Screenshot of final dashboard with three tiles.](media/final-dashboard.png)
-
-11. Save the dashboard by selecting the **Save** icon on the top left corner of the dashboard.
+7. Save the dashboard by selecting the **Save** icon on the top left corner of the dashboard.
 
 ## Next step
 
