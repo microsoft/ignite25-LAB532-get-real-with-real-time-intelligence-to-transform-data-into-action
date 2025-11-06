@@ -6,7 +6,7 @@ In this part of the tutorial, you query streaming data using a few different met
 
 The name of the table you created in a previous step is _TransformedData_. Use this (case-sensitive) name as the data source for your query.
 
-1. Create a new query editor and enter the following query. Then press **Shift + Enter** to run the query.
+1. In the **Tutorial_queryset**, enter the following query. Then press **Shift + Enter** to run the query.
 
      ```kusto
     TransformedData 
@@ -21,7 +21,7 @@ The name of the table you created in a previous step is _TransformedData_. Use t
 
 ## Create a materialized view
 
-In this step, you create a materialized view, which returns an up-to-date result of the aggregation query (always fresh). Querying a materialized view is more performant than running the aggregation directly over the source table.
+In this step, you create a materialized view, which returns an up-to-date result of the aggregation query. Querying a materialized view is faster than running the aggregation directly over the source table.
 
 1. Copy/paste and run the following command to create a materialized view that shows the most recent number of bikes at each bike station:
 
@@ -63,7 +63,7 @@ This query returns the top 10 bike stations with the most bikes, sorted in desce
 
 To get the equivalent KQL for a T-SQL SELECT statement, add the keyword `explain` before the query. The output shows the KQL version of the query, which you can copy and run in the KQL query editor.
 
-- Enter the following query. Then press **Shift + Enter** to run the query.
+1. Enter the following query. Then press **Shift + Enter** to run the query.
 
     ```kusto
     explain
@@ -79,6 +79,8 @@ This query returns a KQL equivalent of the T-SQL query you enter. The KQL query 
 If you're new to writing KQL, you can ask a question in natural language and Copilot generates the KQL query for you.
 
 1. In the Menu bar, select **Queryset** then select **Copilot**.
+
+    ![Screenshot of Copilot option in the Queryset menu.](media/copilot-select.png)
 
 2. Enter a question in natural language. For example, _`Which station has the most bikes right now. Use the materialized view for the most updated data`_. It can help to include the name of the materialized view in your question.
 
