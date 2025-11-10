@@ -49,19 +49,19 @@ Select **Next >** to go to the first exercise.
 
 ===
 
-!INSTRUCTIONS [Real-Time Intelligence tutorial part 3: Transform data in a KQL database](https://raw.githubusercontent.com/microsoft/ignite25-LAB532-get-real-with-real-time-intelligence-to-transform-data-into-action/refs/heads/main/lab/instructions/tutorial-3-transform-kql-database.md)
+!INSTRUCTIONS [Real-Time Intelligence tutorial part 3: Set an Alert on your event stream](https://raw.githubusercontent.com/microsoft/ignite25-LAB532-get-real-with-real-time-intelligence-to-transform-data-into-action/refs/heads/main/lab/instructions/tutorial-3-set-alert.md)
 
 ===
 
-!INSTRUCTIONS [Real-Time Intelligence tutorial part 4: Query streaming data using KQL](https://raw.githubusercontent.com/microsoft/ignite25-LAB532-get-real-with-real-time-intelligence-to-transform-data-into-action/refs/heads/main/lab/instructions/tutorial-4-query-data.md)
+!INSTRUCTIONS [Real-Time Intelligence tutorial part 4: Transform data in a KQL database](https://raw.githubusercontent.com/microsoft/ignite25-LAB532-get-real-with-real-time-intelligence-to-transform-data-into-action/refs/heads/main/lab/instructions/tutorial-4-transform-kql-database.md)
 
 ===
 
-!INSTRUCTIONS [Real-Time Intelligence tutorial part 5: Create a Real-Time dashboard](https://raw.githubusercontent.com/microsoft/ignite25-LAB532-get-real-with-real-time-intelligence-to-transform-data-into-action/refs/heads/main/lab/instructions/tutorial-5-create-dashboard.md)
+!INSTRUCTIONS [Real-Time Intelligence tutorial part 5: Query streaming data using KQL](https://raw.githubusercontent.com/microsoft/ignite25-LAB532-get-real-with-real-time-intelligence-to-transform-data-into-action/refs/heads/main/lab/instructions/tutorial-5-query-data.md)
 
 ===
 
-!INSTRUCTIONS [Real-Time Intelligence tutorial part 6: Set an alert on your eventstream](https://raw.githubusercontent.com/microsoft/ignite25-LAB532-get-real-with-real-time-intelligence-to-transform-data-into-action/refs/heads/main/lab/instructions/tutorial-6-set-alert.md)
+!INSTRUCTIONS [Real-Time Intelligence tutorial part 6: Create a Real-Time dashboard](https://raw.githubusercontent.com/microsoft/ignite25-LAB532-get-real-with-real-time-intelligence-to-transform-data-into-action/refs/heads/main/lab/instructions/tutorial-6-create-dashboard.md)
 
 ===
 
