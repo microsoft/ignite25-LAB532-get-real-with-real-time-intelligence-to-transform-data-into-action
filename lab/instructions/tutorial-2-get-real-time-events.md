@@ -10,12 +10,12 @@ In this part of the tutorial, you browse the Real-Time hub, create an eventstrea
 
    ![Screenshot of Real-time hub with add source highlighted.](media/add-source.png)
 
-3. The **Connect to data source** pane opens. Search for **`Bicycles rentals`** in the search bar, and then select **Connect** on the _Bicycles rentals_ tile.
+3. The **Connect to data source** pane opens. Search for **`Bicycle rentals`** in the search bar, and then select **Connect** on the _Bicycle rentals_ tile.
 
    ![Screenshot of Real-time hub with sample data highlighted.](media/sample-data.png)
 
-4. On the **Configure connection settings** page, for **Source name**, enter +++_TutorialSource_+++.
-5. In the **Stream details** section, under _Workspace_ select your workspace named **_TutorialWorkspace_** and then select the pencil icon, and change the name of the eventstream to +++_TutorialEventstream_+++, notice that it will automatically assign the **Stream name** to be _TutorialEventstream-stream_. Select **Next**.
+4. On the **Configure connection settings** page, for **Source name**, enter _`TutorialSource`_.
+5. In the **Stream details** section, under _Workspace_ select your workspace named **_TutorialWorkspace_@lab.LabInstance.Id** and then select the pencil icon, and change the name of the eventstream to _`TutorialEventstream`_, notice that it will automatically assign the **Stream name** to be _TutorialEventstream-stream_. Select **Next**.
 
    ![Screenshot of connect window in Real-Time hub.](media/connect-source.png)
 
@@ -41,7 +41,7 @@ In this part of the tutorial, you browse the Real-Time hub, create an eventstrea
 5. Select the pencil icon on the _ManageFields_ tile.
 6. In the Manage fields pane, do the following actions:
 
-   i. In **Operation name**, enter +++_TutorialTransform_+++.
+   i. In **Operation name**, enter _`TutorialTransform`_.
 
    ii. Select **Add all fields**.
 
@@ -51,7 +51,7 @@ In this part of the tutorial, you browse the Real-Time hub, create an eventstrea
 
    ![Screenshot showing the system timestamp selected in the event stream manage fields tile in Real-Time Intelligence.](media/system-timestamp.png)
 
-   v. Enter +++_Timestamp_+++ as the **Name**.
+   v. Enter _`Timestamp`_ as the **Name**.
 
    vi. Select **Add**.
 
@@ -75,11 +75,11 @@ In this part of the tutorial, you browse the Real-Time hub, create an eventstrea
    | Field                 | Value                                                        |
    | --------------------- | ------------------------------------------------------------ |
    | **Data ingestion mode** | _Event processing before ingestion_                          |
-   | **Destination name**  | +++_TutorialDestination_+++                                  |
+   | **Destination name**  | _`TutorialDestination`_                                  |
    | **Workspace**         | Select the workspace in which you've created your resources. |
    | **Eventhouse**        | _Tutorial_                                                   |
    | **KQL Database**      | _Tutorial_                                                   |
-   | **Destination table** | _Create new_ - enter +++_RawData_+++ as table name     |
+   | **Destination table** | _Create new_ - enter _`RawData`_ as table name     |
    | **Input data format** | _JSON_                                                       |
 
 5. Ensure that the box **Activate ingestion after adding the data** is checked.
@@ -95,4 +95,4 @@ The event stream is now set up to transform events and send them to a KQL databa
 
 ## Next step
 
-> Select **Next >** to transform streaming data in a KQL database.
+> Select **Next >** to set an alert on your event stream.

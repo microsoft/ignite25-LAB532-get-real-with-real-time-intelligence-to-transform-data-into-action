@@ -1,4 +1,4 @@
-# Real-Time Intelligence tutorial part 6: Set an alert on your event stream
+# Real-Time Intelligence tutorial part 3: Set an alert on your event stream
 
 The event stream insights are now available for you to create alerts. In this part of the tutorial, you learn how to set an alert on your event stream to receive a notification in Teams when the number of bikes falls below a certain threshold.
 
@@ -24,7 +24,7 @@ The event stream insights are now available for you to create alerts. In this pa
     | **Save location** | |
     | Workspace | The workspace in which you created resources|
     | Item | Create a new item |
-    | New item name | +++Tutorial+++ |
+    | New item name | _`TutorialRule`_ |
 
     ![Screenshot of Set alert pane in Real-Time Intelligence.](media/alert-logic.png)
 
@@ -32,4 +32,4 @@ The event stream insights are now available for you to create alerts. In this pa
 
 ## Next step
 
-> Select **Next >** to create an anomaly detection on your event stream.
+> Select **Next >** to transform data in a KQL database.
