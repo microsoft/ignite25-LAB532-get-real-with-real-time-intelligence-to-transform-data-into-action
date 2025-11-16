@@ -39,4 +39,4 @@ In this part of the tutorial, you learn how to create a Fabric data agent and us
 
 10. Feel free to experiment by providing more instructions to the agent or by asking other questions.
 
-> Select **Next >** to clean up resources
+> Select **Next >** to clean up resources.

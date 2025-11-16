@@ -60,7 +60,7 @@ In this step, you will create a stored function that holds the transformation lo
 
 1. Inside **Tutorial_queryset**, select the **+** sign to create a new KQL script.
 2. From the menu ribbon, select **Database**.
-3. Select **+New** > **Function**.
+3. Select **+ New** > **Function**.
 4. Edit the function so that it matches the following code, or copy/paste the following code into the query editor. This code creates a new function to parse the _BikepointID_ column and generate two new calculated columns.
 
     ```kusto

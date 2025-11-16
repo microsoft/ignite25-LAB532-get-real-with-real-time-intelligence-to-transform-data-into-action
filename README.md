@@ -27,10 +27,10 @@ By the end of this session, learners will be able to:
 
 ### 💻 Technologies Used
 
-1. Microsoft Fabric
-2. Real-Time Intelligence
-3. Kusto Query Language (KQL)
-4. Power BI
+1. Microsoft Fabric - [Get started with Microsoft Fabric](https://learn.microsoft.com/fabric/get-started/overview)
+2. Real-Time Intelligence - [Real-Time Intelligence overview](https://learn.microsoft.com/fabric/real-time-intelligence/overview)
+3. Kusto Query Language (KQL) - [Create a KQL database](https://learn.microsoft.com/fabric/real-time-intelligence/create-database)
+4. Fabric Data Agent - [Create a Fabric Data Agent](https://learn.microsoft.com/fabric/data-science/how-to-create-data-agent)
 
 ## Business Value
 

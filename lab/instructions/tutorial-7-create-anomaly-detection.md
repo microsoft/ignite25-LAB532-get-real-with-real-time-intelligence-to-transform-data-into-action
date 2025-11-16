@@ -42,13 +42,13 @@ Anomaly detection is a feature of Real-Time Intelligence that allows you to iden
 
 Now that you have created an anomaly detector, you can create alerts to notify you when anomalies are detected.
 
-1. Go to Real-Time hub and select **Fabric events**.
+1. Select **Real-Time** from the left navigation bar to open the *Real-Time hub* and select **Fabric events**.
 2. Select **Set alert** on **Anomaly detection events** .
 
-   ![Screenshot of anomaly alert selection](media/select-anomaly-alert.png) 
+   ![Screenshot of anomaly alert selection](media/select-anomaly-alert.png)
 
-2. From the side **Add rule** pane, use **BikeAnomalyAlert** as the **Rule name**.
-3. Under **Monitor**, click on **Select source events** and configure the following:
+3. From the side **Add rule** pane, use **`BikeAnomalyAlert`** as the **Rule name**.
+4. Under **Monitor**, click on **Select source events** and configure the following:
 
     | Field | Value |
     | --- | --- |
@@ -59,31 +59,30 @@ Now that you have created an anomaly detector, you can create alerts to notify y
 
     ![Screenshot of anomaly alert configuration](media/anomaly-alert-configuration.png)
 
-4. Select **Next** and **Save**
-5. Leave **Condition** as **On every value** .
-6. Configure the **Action** with the following details:
+5. Select **Next** and **Save**
+6. Leave **Condition** as **On every value** .
+7. Configure the **Action** with the following details:
 
     | Field | Value |
     | --- | --- |
     | Select action | Message to individuals |
-    | To | Enter your email address |
-    | Headline | Anomaly detected in Bike Sharing Data |
-    | Notes | An anomaly has been detected in the bike sharing data. Please check. |
-    | Context | Select analysisType, timestampAttributeName, timestampAttributeValue, univariate, customAttributes |
+    | To | Select or enter **`@lab.CloudPortalCredential(User1).Username`** |
+    | Headline | `Anomaly detected in Bike Sharing Data` |
+    | Notes | `An anomaly has been detected in the bike sharing data. Please check.` |
+    | Context | Select **analysisType**, **timestampAttributeName**, **timestampAttributeValue**, **univariate**, **customAttributes** |
 
-7. Configure **Save location** with the following details:
+8. Configure **Save location** with the following details:
 
     | Field | Value |
     | --- | --- |
     | Workspace | Select Tutorial workspace from drop down |
     | Item| Create a new item |
-    | New item name | AnomalyAlert |
+    | New item name | `AnomalyAlert` |
 
     ![Screenshot of anomaly rule configuration](media/anomaly-rule-setup.png)
 
-8. Select **Create** to create the anomaly alert rule.
-
+9. Select **Create** to create the anomaly alert rule.
 
 ## Next step
 
-> Select **Next >** to create a map visualization of your anomalies.
+> Select **Next >** to create a map using geospatial data.
