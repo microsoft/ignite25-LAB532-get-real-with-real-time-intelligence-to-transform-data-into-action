@@ -14,20 +14,20 @@ In this part of the tutorial, you learn how to create a Real-Time Dashboard in R
 
     ![Screenshot of query showing column chart of bikes by bike point ID.](media/bikes-by-bikepoint.png)
 
-2. Select **Save to dashboard** and **New Real-Time Dashboard**.
+2. Select **Save to dashboard** and **In a new dashboard**.
 3. Enter the following information:
 
     ![Screenshot of pinning query to dashboard in Real-Time Intelligence.](media/pin-dashboard.png)
 
     | Field | Value |
     | --- | --- |
-    | **Dashboard name** | +++*TutorialDashboard*+++ |
-    | **Tile name** | +++*Recent bikes by Timepoint*+++ |
+    | **Dashboard name** | *`TutorialDashboard`* |
+    | **Tile name** | *`Recent bikes by Timepoint`* |
     | **Open dashboard after creation** | *Selected* |
 
 4. Select **Create**.
 
-Since you've selected **Open dashboard after creation**, the new Real-Time dashboard, *TutorialDashboard*, opens with the *Recent bikes by Bikepoint* tile. You can also access the Real-Time dashboard by browsing to your workspace and selecting the desired item.
+Since you've selected **Open dashboard after creation**, the new Real-Time dashboard, *TutorialDashboard*, opens with the *Recent bikes by Timepoint* tile. You can also access the Real-Time dashboard by browsing to your workspace and selecting the desired item.
 
 ## Add a new tile to the dashboard
 
@@ -44,6 +44,9 @@ Since you've selected **Open dashboard after creation**, the new Real-Time dashb
     ```
 
 4. Above the results pane, select **+ Add visual**.
+
+    ![Screenshot of add visual button in Real-Time dashboard.](media/add-visual.png)
+
 5. In the **Visual formatting** pane, enter the following information:
 
     | Field | Value |
@@ -64,4 +67,4 @@ Since you've selected **Open dashboard after creation**, the new Real-Time dashb
 
 ## Next step
 
-> Select **Next >** to set an alert on your event stream
+> Select **Next >** to detect anomalies on your Eventhouse table.
