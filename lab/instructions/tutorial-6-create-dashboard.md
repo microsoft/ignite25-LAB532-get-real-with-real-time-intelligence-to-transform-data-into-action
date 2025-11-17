@@ -1,4 +1,4 @@
-# Real-Time Intelligence tutorial part 5: Create a Real-Time dashboard
+# Real-Time Intelligence tutorial part 6: Create a Real-Time dashboard
 
 In this part of the tutorial, you learn how to create a Real-Time Dashboard in Real-Time Intelligence. You create a Kusto Query Language (KQL) query, create a Real-Time Dashboard, add a new tile to the dashboard, and explore the data visually by adding an aggregation.
 

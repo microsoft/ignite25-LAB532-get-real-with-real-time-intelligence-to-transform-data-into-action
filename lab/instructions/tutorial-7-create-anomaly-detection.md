@@ -10,8 +10,9 @@ Anomaly detection is a feature of Real-Time Intelligence that allows you to iden
     ![Screenshot of eventhouse table details page and detect anomalies selected.](media/detect-anomalies.png)
 
 3. Enter **`BikeAnomaliesconfiguration`** as Name
-4. Under Save to, select the workspace in which you want to create the anomaly detector item, enter a name such as **`BikeAnomalies`**. Then select **Create**.
-5. In the *Select attributes* section, choose the following options:
+4. Under **Save to**, select the dropdown and choose **Create detector**.
+5. In the **Create anomaly detector** pane, select the **TutorialWorkspace_@lab.LabInstance.Id** workspace to create the anomaly detector in, enter a name such as **`BikeAnomalies`**. Then select **Create**.
+6. In the *Select attributes* section, choose the following options:
 
     | Field | Value |
     | --- | --- |
@@ -21,7 +22,7 @@ Anomaly detection is a feature of Real-Time Intelligence that allows you to iden
 
     ![Screenshot of anomaly configuration pane](media/anomaly-configuration.png)
 
-6. Select **Run analysis**.
+7. Select **Run analysis**.
 
     > [!IMPORTANT]
     > Analysis typically takes up to 4 minutes depending on your data size and can run for up to 30 minutes. You can navigate away from the page and check back in when the analysis is complete.
@@ -29,14 +30,14 @@ Anomaly detection is a feature of Real-Time Intelligence that allows you to iden
     > [!NOTE]
     > Ensure your Eventhouse table contains sufficient historical data to improve model recommendations and anomaly detection accuracy. For example, datasets with one data point per day require a few months of data, while datasets with one data point per second might only need a few days.
 
-7. When analysis is complete, anomalies along with tabular data are displayed on the right.
+8. When analysis is complete, anomalies along with tabular data are displayed on the right.
 
     ![Screenshot of completed anomaly detection](media/anomalies-detected.png)
 
     > [!NOTE]
     > Play around with the **Detection model** under **Customize detection** section and Timestamp above the **Detector results** pane. More data might increase anomaly detection accuracy.
 
-8. Select **Save**.
+9. Select **Save** then select **Publish**.
 
 ## Create anomaly alerts
 
@@ -53,14 +54,14 @@ Now that you have created an anomaly detector, you can create alerts to notify y
     | Field | Value |
     | --- | --- |
     | Event type(s) | Microsoft.Fabric.AnomalyEvents.AnomalyDetected |
-    | Event scope | Select Tutorial workspace from drop down |
+    | Event scope | Select **TutorialWorkspace_@lab.LabInstance.Id** workspace from drop down |
     | Item | Select Anomaly detector item you created in previous section **BikeAnomalies** |
     | Configuration | Select configuration you created in previous section **BikeAnomaliesconfiguration** |
 
     ![Screenshot of anomaly alert configuration](media/anomaly-alert-configuration.png)
 
 5. Select **Next** and **Save**
-6. Leave **Condition** as **On every value** .
+6. Leave **Condition** as **On each event** .
 7. Configure the **Action** with the following details:
 
     | Field | Value |
@@ -75,13 +76,13 @@ Now that you have created an anomaly detector, you can create alerts to notify y
 
     | Field | Value |
     | --- | --- |
-    | Workspace | Select Tutorial workspace from drop down |
+    | Workspace | Select **TutorialWorkspace_@lab.LabInstance.Id** workspace from drop down |
     | Item| Create a new item |
     | New item name | `AnomalyAlert` |
 
     ![Screenshot of anomaly rule configuration](media/anomaly-rule-setup.png)
 
-9. Select **Create** to create the anomaly alert rule.
+9. Select **Create** to create the anomaly alert rule then select **Done**.
 
 ## Next step
 
