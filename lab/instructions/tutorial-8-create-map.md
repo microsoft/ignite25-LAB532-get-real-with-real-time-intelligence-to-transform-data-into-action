@@ -26,9 +26,9 @@ In this part of the tutorial, you learn how to create a map using geospatial dat
 
 2. Enter **`TutorialLakehouse`** as Name
 3. Right-click the **File** node and under **Upload**, select **Upload files**.
-4. Click on each of the following two GeoJSON files to download them, then upload them to the Lakehouse.
-    - [london-boroughs.geojson](https://github.com/microsoft/fabric-samples/blob/main/docs-samples/real-time-intelligence/london-boroughs.geojson)
-    - [buckingham-palace-road.json](https://github.com/microsoft/fabric-samples/blob/main/docs-samples/real-time-intelligence/buckingham-palace-road.geojson)
+4. In new tabs, enter each of the following two links to download the GeoJSON files then upload them to the Lakehouse.
+    - `https://aka.ms/london-boroughs`
+    - `https://aka.ms/buckingham-palace`
 
     ![Screenshot of files upload to lakehouse.](media/lakehouse-upload-files.png)
 
@@ -42,7 +42,7 @@ In this part of the tutorial, you learn how to create a map using geospatial dat
 
 ## Add Eventhouse data to the Map
 
-1. In the **Explorer** pane, select **Eventhouse** and select **+ Add data items** and choose the **Tutorial** eventhouse.
+1. In the **Explorer** pane, select **Eventhouse** and select **+ Add data items** and choose the **Tutorial** eventhouse. Select **Connect**.
 2. Under Tutorial, select the **Tutorial_queryset** and Select the more menu (...) next to **Show on map** and select **Show on map**.
 
     ![Screenshot of eventhouse queryset tab selection](media/map-eventhouse.png)
