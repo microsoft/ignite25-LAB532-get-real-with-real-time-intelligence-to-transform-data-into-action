@@ -20,15 +20,15 @@ The event stream insights are now available for you to create alerts. In this pa
     | Field | No_Bikes |  
     | Condition | Is less than |
     | Value | 5 |
-    | **Action** |  **Message me in Teams** |
+    | **Action** |  **Message to individuals** |
     | **Save location** | |
     | Workspace | The workspace in which you created resources|
     | Item | Create a new item |
-    | New item name | _`TutorialRule`_ |
+    | New item name | *`TutorialRule`* |
 
     ![Screenshot of Set alert pane in Real-Time Intelligence.](media/alert-logic.png)
 
-5. Select **Create**.
+5. Select **Create** then select **Done**.
 
 ## Next step
 
